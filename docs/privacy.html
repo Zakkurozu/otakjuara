@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+
 <html lang="id">
 <head>
 <meta charset="UTF-8">
@@ -14,113 +15,151 @@
     --muted: #a3a8c9;
     --border: #262f5e;
   }
-  * { box-sizing: border-box; }
-  body {
-    margin: 0;
-    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
-    background: var(--bg);
-    color: var(--text);
-    line-height: 1.65;
-  }
-  header {
-    padding: 40px 20px 24px;
-    text-align: center;
-    border-bottom: 3px solid var(--border);
-  }
-  header .logo {
-    font-weight: 900;
-    font-size: 28px;
-    letter-spacing: -0.5px;
-    font-style: italic;
-  }
-  header .logo span.otak { color: var(--accent); }
-  header .logo span.juara { color: #fff; }
-  header p.tagline {
-    color: var(--muted);
-    font-size: 12px;
-    letter-spacing: 2px;
-    text-transform: uppercase;
-    margin-top: 6px;
-  }
-  main {
-    max-width: 760px;
-    margin: 0 auto;
-    padding: 40px 20px 80px;
-  }
-  h1 {
-    font-size: 28px;
-    margin-bottom: 4px;
-  }
-  .updated {
-    color: var(--muted);
-    font-size: 14px;
-    margin-bottom: 32px;
-  }
-  section {
-    background: var(--card);
-    border: 1px solid var(--border);
-    border-radius: 16px;
-    padding: 24px 28px;
-    margin-bottom: 20px;
-  }
-  h2 {
-    font-size: 18px;
-    color: var(--accent);
-    margin-top: 0;
-    margin-bottom: 12px;
-  }
-  h3 {
-    font-size: 15px;
-    color: var(--pink);
-    margin-bottom: 6px;
-  }
-  p, li { color: var(--text); font-size: 15px; }
-  ul { padding-left: 20px; }
-  a { color: var(--pink); }
-  table {
-    width: 100%;
-    border-collapse: collapse;
-    margin-top: 12px;
-    font-size: 14px;
-  }
-  th, td {
-    text-align: left;
-    padding: 8px 10px;
-    border-bottom: 1px solid var(--border);
-  }
-  th { color: var(--accent); }
-  footer {
-    text-align: center;
-    padding: 24px;
-    color: var(--muted);
-    font-size: 13px;
-    border-top: 1px solid var(--border);
-  }
-  .nav-links {
-    text-align: center;
-    margin-bottom: 24px;
-  }
-  .nav-links a {
-    display: inline-block;
-    margin: 0 10px;
-    text-decoration: none;
-    color: var(--muted);
-    font-size: 13px;
-    font-weight: 700;
-    text-transform: uppercase;
-    letter-spacing: 1px;
-  }
-  .nav-links a:hover { color: var(--accent); }
-</style>
+
+* { box-sizing: border-box; }
+
+body {
+margin: 0;
+font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+Helvetica, Arial, sans-serif;
+background: var(--bg);
+color: var(--text);
+line-height: 1.65;
+}
+
+header {
+padding: 40px 20px 24px;
+text-align: center;
+border-bottom: 3px solid var(--border);
+}
+
+header .logo {
+font-weight: 900;
+font-size: 28px;
+letter-spacing: -0.5px;
+font-style: italic;
+}
+
+header .logo span.otak { color: var(--accent); }
+header .logo span.juara { color: #fff; }
+
+header p.tagline {
+color: var(--muted);
+font-size: 12px;
+letter-spacing: 2px;
+text-transform: uppercase;
+margin-top: 6px;
+}
+
+main {
+max-width: 760px;
+margin: 0 auto;
+padding: 40px 20px 80px;
+}
+
+h1 {
+font-size: 28px;
+margin-bottom: 4px;
+}
+
+.updated {
+color: var(--muted);
+font-size: 14px;
+margin-bottom: 32px;
+}
+
+section {
+background: var(--card);
+border: 1px solid var(--border);
+border-radius: 16px;
+padding: 24px 28px;
+margin-bottom: 20px;
+}
+
+h2 {
+font-size: 18px;
+color: var(--accent);
+margin-top: 0;
+margin-bottom: 12px;
+}
+
+h3 {
+font-size: 15px;
+color: var(--pink);
+margin-bottom: 6px;
+}
+
+p, li {
+color: var(--text);
+font-size: 15px;
+}
+
+ul {
+padding-left: 20px;
+}
+
+a {
+color: var(--pink);
+}
+
+table {
+width: 100%;
+border-collapse: collapse;
+margin-top: 12px;
+font-size: 14px;
+}
+
+th, td {
+text-align: left;
+padding: 8px 10px;
+border-bottom: 1px solid var(--border);
+}
+
+th {
+color: var(--accent);
+}
+
+footer {
+text-align: center;
+padding: 24px;
+color: var(--muted);
+font-size: 13px;
+border-top: 1px solid var(--border);
+}
+
+.nav-links {
+text-align: center;
+margin-bottom: 24px;
+}
+
+.nav-links a {
+display: inline-block;
+margin: 0 10px;
+text-decoration: none;
+color: var(--muted);
+font-size: 13px;
+font-weight: 700;
+text-transform: uppercase;
+letter-spacing: 1px;
+}
+
+.nav-links a:hover {
+color: var(--accent);
+} </style>
+
 </head>
+
 <body>
 
 <header>
-  <div class="logo"><span class="otak">OTAK</span><span class="juara">JUARA</span></div>
+  <div class="logo">
+    <span class="otak">OTAK</span><span class="juara">JUARA</span>
+  </div>
   <p class="tagline">Arena Asah Otak & Ranking</p>
 </header>
 
 <main>
+
   <div class="nav-links">
     <a href="about.html">Tentang</a>
     <a href="terms.html">Syarat & Ketentuan</a>
@@ -132,109 +171,370 @@
 
   <section>
     <h2>1. Pendahuluan</h2>
-    <p>
-      Kebijakan Privasi ini menjelaskan bagaimana OtakJuara ("kami") mengumpulkan, menggunakan, dan
-      melindungi informasi Anda saat menggunakan aplikasi kami. Dengan menggunakan Aplikasi, Anda
-      menyetujui pengumpulan dan penggunaan informasi sesuai kebijakan ini.
-    </p>
+
+```
+<p>
+  Selamat datang di OtakJuara. Kebijakan Privasi ini menjelaskan bagaimana
+  OtakJuara ("kami", "kita", atau "Pengembang") mengumpulkan, menggunakan,
+  menyimpan, dan melindungi informasi pengguna ketika Anda menggunakan
+  aplikasi dan layanan OtakJuara ("Aplikasi").
+</p>
+
+<p>
+  Dengan membuat akun atau menggunakan Aplikasi, Anda memahami praktik
+  pengelolaan data yang dijelaskan dalam Kebijakan Privasi ini.
+</p>
+```
+
   </section>
 
   <section>
     <h2>2. Informasi yang Kami Kumpulkan</h2>
-    <table>
-      <tr>
-        <th>Jenis Data</th>
-        <th>Contoh</th>
-      </tr>
-      <tr>
-        <td>Data Akun</td>
-        <td>Nama pengguna, email, avatar, kata sandi (terenkripsi)</td>
-      </tr>
-      <tr>
-        <td>Data Permainan</td>
-        <td>Skor, MMR/rating, riwayat pertandingan, statistik peringkat</td>
-      </tr>
-      <tr>
-        <td>Data Perangkat</td>
-        <td>Jenis perangkat, sistem operasi, ID perangkat (untuk versi Android)</td>
-      </tr>
-      <tr>
-        <td>Data Penggunaan</td>
-        <td>Log aktivitas, waktu akses, fitur yang digunakan</td>
-      </tr>
-    </table>
+
+```
+<p>
+  Untuk menyediakan fitur akun, permainan, profil, dan peringkat,
+  Aplikasi dapat mengumpulkan dan memproses informasi berikut:
+</p>
+
+<table>
+  <thead>
+    <tr>
+      <th>Jenis Data</th>
+      <th>Tujuan Penggunaan</th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <tr>
+      <td>Alamat email</td>
+      <td>Autentikasi dan pengelolaan akun pengguna.</td>
+    </tr>
+
+    <tr>
+      <td>Nama pengguna</td>
+      <td>Identitas pemain dan tampilan profil/leaderboard.</td>
+    </tr>
+
+    <tr>
+      <td>Avatar</td>
+      <td>Menampilkan identitas visual pada profil dan fitur permainan.</td>
+    </tr>
+
+    <tr>
+      <td>Skor permainan</td>
+      <td>Mencatat hasil permainan dan menentukan peringkat pemain.</td>
+    </tr>
+
+    <tr>
+      <td>Statistik permainan</td>
+      <td>Menyediakan informasi performa dan perkembangan pemain.</td>
+    </tr>
+
+    <tr>
+      <td>Riwayat pertandingan</td>
+      <td>Menyediakan riwayat aktivitas permainan dan hasil pertandingan.</td>
+    </tr>
+
+    <tr>
+      <td>Data sesi autentikasi</td>
+      <td>Mempertahankan status login dan mengamankan akses ke akun.</td>
+    </tr>
+  </tbody>
+</table>
+
+<p>
+  Kami hanya mengumpulkan data yang diperlukan untuk menjalankan fitur
+  dan fungsi Aplikasi.
+</p>
+```
+
   </section>
 
   <section>
-    <h2>3. Bagaimana Kami Menggunakan Informasi</h2>
-    <ul>
-      <li>Menyediakan dan memelihara fungsi inti Aplikasi (arena, battle mode, leaderboard).</li>
-      <li>Menghitung dan menampilkan peringkat serta statistik pengguna.</li>
-      <li>Mendeteksi dan mencegah kecurangan atau penyalahgunaan sistem.</li>
-      <li>Meningkatkan performa dan pengalaman pengguna dalam Aplikasi.</li>
-      <li>Berkomunikasi dengan Anda terkait pembaruan atau masalah akun, jika diperlukan.</li>
-    </ul>
+    <h2>3. Informasi yang Dapat Dilihat Pengguna Lain</h2>
+
+```
+<p>
+  Beberapa informasi yang berkaitan dengan aktivitas permainan dapat
+  ditampilkan kepada pengguna lain melalui fitur seperti profil pemain
+  atau leaderboard.
+</p>
+
+<p>
+  Informasi tersebut dapat mencakup nama pengguna, avatar, skor,
+  peringkat, dan statistik permainan, sesuai dengan fitur yang tersedia
+  di dalam Aplikasi.
+</p>
+
+<p>
+  Informasi autentikasi seperti kata sandi, token akses, atau kredensial
+  keamanan lainnya tidak ditampilkan secara publik.
+</p>
+```
+
   </section>
 
   <section>
-    <h2>4. Penyimpanan & Keamanan Data</h2>
-    <p>
-      Kami menerapkan langkah-langkah keamanan yang wajar untuk melindungi data Anda dari akses,
-      perubahan, atau pengungkapan yang tidak sah. Namun, tidak ada metode transmisi atau penyimpanan
-      data elektronik yang 100% aman, sehingga kami tidak dapat menjamin keamanan mutlak.
-    </p>
+    <h2>4. Bagaimana Kami Menggunakan Data</h2>
+
+```
+<p>Data pengguna digunakan untuk:</p>
+
+<ul>
+  <li>Membuat dan mengelola akun pengguna.</li>
+  <li>Melakukan autentikasi dan menjaga sesi login.</li>
+  <li>Menyimpan dan menampilkan hasil permainan.</li>
+  <li>Menghitung serta menampilkan peringkat pemain.</li>
+  <li>Menyediakan profil dan statistik permainan.</li>
+  <li>Menyediakan fitur dan layanan utama OtakJuara.</li>
+  <li>Menjaga keamanan dan mencegah penyalahgunaan layanan.</li>
+  <li>Memperbaiki stabilitas dan kinerja Aplikasi apabila diperlukan.</li>
+</ul>
+
+<p>
+  Kami tidak menjual informasi pribadi pengguna kepada pihak lain.
+</p>
+```
+
   </section>
 
   <section>
-    <h2>5. Berbagi Data dengan Pihak Ketiga</h2>
-    <p>
-      Kami tidak menjual data pribadi Anda kepada pihak ketiga. Data dapat dibagikan hanya dalam
-      kondisi berikut:
-    </p>
-    <ul>
-      <li>Dengan penyedia layanan teknis (misalnya hosting atau basis data) yang membantu operasional Aplikasi.</li>
-      <li>Jika diwajibkan oleh hukum atau proses hukum yang sah.</li>
-      <li>Untuk melindungi hak, properti, atau keamanan OtakJuara, pengguna, atau publik.</li>
-    </ul>
+    <h2>5. Pembagian dan Pengungkapan Data</h2>
+
+```
+<p>
+  Kami tidak menjual data pribadi pengguna.
+</p>
+
+<p>
+  Data dapat diproses oleh penyedia layanan teknologi yang membantu kami
+  menjalankan Aplikasi, seperti penyedia hosting, server, database,
+  atau layanan infrastruktur lainnya, apabila diperlukan untuk
+  menyediakan layanan.
+</p>
+
+<p>
+  Penyedia layanan tersebut hanya diberikan akses sejauh diperlukan
+  untuk menjalankan fungsi layanan dan tidak diperbolehkan menggunakan
+  data pengguna untuk tujuan yang tidak berkaitan dengan layanan kami.
+</p>
+
+<p>
+  Kami juga dapat mengungkapkan informasi apabila diwajibkan oleh hukum,
+  peraturan, proses hukum, atau permintaan resmi dari pihak yang
+  berwenang.
+</p>
+```
+
   </section>
 
   <section>
-    <h2>6. Hak Anda</h2>
-    <p>Anda berhak untuk:</p>
-    <ul>
-      <li>Mengakses dan meminta salinan data pribadi yang kami simpan tentang Anda.</li>
-      <li>Meminta koreksi data yang tidak akurat.</li>
-      <li>Meminta penghapusan akun dan data terkait.</li>
-    </ul>
-    <p>
-      Untuk mengajukan permintaan di atas, silakan hubungi kami melalui informasi kontak di bagian 8.
-    </p>
+    <h2>6. Penyimpanan dan Keamanan Data</h2>
+
+```
+<p>
+  Kami mengambil langkah-langkah teknis dan organisasi yang wajar untuk
+  melindungi informasi pengguna dari akses, perubahan, pengungkapan,
+  atau penghancuran yang tidak sah.
+</p>
+
+<p>
+  Kata sandi pengguna, apabila digunakan oleh sistem autentikasi,
+  disimpan dalam bentuk hash menggunakan mekanisme hashing yang sesuai
+  dan tidak disimpan sebagai teks biasa.
+</p>
+
+<p>
+  Data dikirimkan melalui koneksi yang menggunakan enkripsi selama
+  proses komunikasi antara Aplikasi dan server, apabila didukung oleh
+  koneksi layanan yang digunakan.
+</p>
+
+<p>
+  Meskipun kami berusaha melindungi data pengguna dengan langkah-langkah
+  yang wajar, tidak ada metode transmisi atau penyimpanan elektronik
+  yang dapat dijamin 100% aman.
+</p>
+```
+
   </section>
 
   <section>
-    <h2>7. Privasi Anak</h2>
-    <p>
-      Aplikasi ini tidak ditujukan untuk anak di bawah usia 13 tahun. Kami tidak secara sengaja
-      mengumpulkan data pribadi dari anak-anak. Jika Anda mengetahui adanya data anak yang terkumpul
-      tanpa izin orang tua/wali, silakan hubungi kami agar dapat dihapus.
-    </p>
+    <h2>7. Retensi Data</h2>
+
+```
+<p>
+  Kami menyimpan data pengguna selama diperlukan untuk menyediakan
+  layanan OtakJuara, memenuhi kewajiban hukum, menyelesaikan sengketa,
+  dan menegakkan perjanjian atau kebijakan yang berlaku.
+</p>
+
+<p>
+  Apabila akun pengguna dihapus, data yang berkaitan dengan akun tersebut
+  akan dihapus atau dianonimkan dalam jangka waktu yang wajar, kecuali
+  apabila penyimpanannya diperlukan untuk memenuhi kewajiban hukum atau
+  tujuan sah lainnya.
+</p>
+```
+
   </section>
 
   <section>
-    <h2>8. Kontak</h2>
-    <p>
-      Jika Anda memiliki pertanyaan mengenai Kebijakan Privasi ini, silakan hubungi kami di
-      <a href="mailto:afrizalahma5@gmail.com">afrizalahma5@gmail.com</a>.
-    </p>
+    <h2>8. Penghapusan Akun dan Data</h2>
+
+```
+<p>
+  Anda dapat meminta penghapusan akun dan data pribadi yang terkait
+  dengan akun Anda.
+</p>
+
+<p>
+  Untuk mengajukan permintaan penghapusan akun dan data, silakan
+  menghubungi kami melalui alamat email yang tercantum pada bagian
+  "Kontak" di bawah.
+</p>
+
+<p>
+  Dalam permintaan tersebut, kami dapat meminta informasi yang diperlukan
+  untuk memverifikasi bahwa permintaan berasal dari pemilik akun yang
+  bersangkutan.
+</p>
+
+<p>
+  Setelah permintaan diverifikasi, data akan diproses untuk dihapus
+  sesuai dengan kebijakan retensi kami dan kewajiban hukum yang berlaku.
+</p>
+```
+
   </section>
 
   <section>
-    <h2>9. Perubahan Kebijakan</h2>
-    <p>
-      Kami dapat memperbarui Kebijakan Privasi ini dari waktu ke waktu. Perubahan akan diumumkan
-      melalui halaman ini dengan tanggal pembaruan yang baru.
-    </p>
+    <h2>9. Privasi Anak</h2>
+
+```
+<p>
+  OtakJuara tidak secara khusus ditujukan untuk anak-anak di bawah
+  usia 13 tahun.
+</p>
+
+<p>
+  Kami tidak dengan sengaja meminta atau mengumpulkan informasi pribadi
+  dari anak-anak yang kami ketahui berada di bawah usia tersebut.
+  Apabila Anda mengetahui bahwa seorang anak telah memberikan informasi
+  pribadi kepada kami tanpa persetujuan yang sesuai, silakan hubungi
+  kami agar informasi tersebut dapat ditinjau dan, apabila diperlukan,
+  dihapus.
+</p>
+```
+
   </section>
+
+  <section>
+    <h2>10. Izin Aplikasi</h2>
+
+```
+<p>
+  Aplikasi dapat meminta izin perangkat tertentu apabila diperlukan
+  untuk menyediakan fitur tertentu. Izin yang diminta bergantung pada
+  fitur dan versi Aplikasi yang digunakan.
+</p>
+
+<p>
+  Kami tidak menggunakan izin perangkat untuk mengumpulkan informasi
+  pribadi di luar tujuan yang dijelaskan dalam Kebijakan Privasi ini.
+</p>
+```
+
+  </section>
+
+  <section>
+    <h2>11. Layanan Pihak Ketiga</h2>
+
+```
+<p>
+  Aplikasi dapat menggunakan layanan pihak ketiga untuk mendukung
+  fungsi teknis, infrastruktur, autentikasi, penyimpanan, atau layanan
+  lainnya.
+</p>
+
+<p>
+  Penggunaan layanan pihak ketiga tersebut dapat tunduk pada kebijakan
+  privasi masing-masing penyedia layanan. Kami menyarankan pengguna
+  untuk membaca kebijakan privasi penyedia layanan terkait apabila
+  diperlukan.
+</p>
+```
+
+  </section>
+
+  <section>
+    <h2>12. Hak Pengguna</h2>
+
+```
+<p>
+  Bergantung pada hukum yang berlaku, pengguna dapat memiliki hak untuk:
+</p>
+
+<ul>
+  <li>Meminta akses terhadap data pribadi yang kami simpan.</li>
+  <li>Meminta perbaikan data yang tidak akurat.</li>
+  <li>Meminta penghapusan akun dan data.</li>
+  <li>Meminta informasi mengenai bagaimana data digunakan.</li>
+  <li>Menyampaikan pertanyaan atau keluhan mengenai pemrosesan data.</li>
+</ul>
+
+<p>
+  Untuk menggunakan hak tersebut, silakan hubungi kami melalui informasi
+  kontak yang tersedia di bawah.
+</p>
+```
+
+  </section>
+
+  <section>
+    <h2>13. Perubahan Kebijakan Privasi</h2>
+
+```
+<p>
+  Kami dapat memperbarui Kebijakan Privasi ini dari waktu ke waktu untuk
+  mencerminkan perubahan pada Aplikasi, layanan, atau persyaratan hukum
+  yang berlaku.
+</p>
+
+<p>
+  Setiap perubahan akan dipublikasikan pada halaman ini dan tanggal
+  "Terakhir diperbarui" akan diperbarui sesuai dengan perubahan tersebut.
+</p>
+
+<p>
+  Kami menyarankan pengguna untuk memeriksa halaman ini secara berkala
+  agar tetap mengetahui bagaimana informasi pengguna dikelola.
+</p>
+```
+
+  </section>
+
+  <section>
+    <h2>14. Kontak</h2>
+
+```
+<p>
+  Jika Anda memiliki pertanyaan, permintaan, atau keluhan mengenai
+  Kebijakan Privasi ini atau pengelolaan data pengguna, silakan hubungi:
+</p>
+
+<p>
+  <strong>OtakJuara</strong><br>
+  Email:
+  <a href="mailto:afrizalahma5@gmail.com">
+    afrizalahma5@gmail.com
+  </a>
+</p>
+```
+
+  </section>
+
 </main>
 
 <footer>
