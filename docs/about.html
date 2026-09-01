@@ -1,1 +1,244 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Tentang — OtakJuara</title>
+<style>
+  :root {
+    --bg: #0b0f2b;
+    --card: #131a3d;
+    --accent: #f7c948;
+    --pink: #ec4899;
+    --teal: #14b8a6;
+    --text: #e6e8f5;
+    --muted: #a3a8c9;
+    --border: #262f5e;
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    background: var(--bg);
+    color: var(--text);
+    line-height: 1.65;
+  }
+  header {
+    padding: 40px 20px 24px;
+    text-align: center;
+    border-bottom: 3px solid var(--border);
+  }
+  header .logo {
+    font-weight: 900;
+    font-size: 28px;
+    letter-spacing: -0.5px;
+    font-style: italic;
+  }
+  header .logo span.otak { color: var(--accent); }
+  header .logo span.juara { color: #fff; }
+  header p.tagline {
+    color: var(--muted);
+    font-size: 12px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    margin-top: 6px;
+  }
+  main {
+    max-width: 760px;
+    margin: 0 auto;
+    padding: 40px 20px 80px;
+  }
+  .hero {
+    text-align: center;
+    padding: 20px 10px 40px;
+  }
+  .hero h1 {
+    font-size: 32px;
+    margin-bottom: 10px;
+  }
+  .hero p {
+    color: var(--muted);
+    font-size: 16px;
+    max-width: 520px;
+    margin: 0 auto;
+  }
+  section {
+    background: var(--card);
+    border: 1px solid var(--border);
+    border-radius: 16px;
+    padding: 24px 28px;
+    margin-bottom: 20px;
+  }
+  h2 {
+    font-size: 18px;
+    color: var(--accent);
+    margin-top: 0;
+    margin-bottom: 12px;
+  }
+  p, li { color: var(--text); font-size: 15px; }
+  ul { padding-left: 20px; }
+  a { color: var(--pink); }
 
+  .feature-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 16px;
+  }
+  @media (max-width: 560px) {
+    .feature-grid { grid-template-columns: 1fr; }
+  }
+  .feature-card {
+    background: var(--bg);
+    border: 1px solid var(--border);
+    border-radius: 14px;
+    padding: 18px;
+  }
+  .feature-card .icon {
+    font-size: 22px;
+    margin-bottom: 8px;
+  }
+  .feature-card h3 {
+    font-size: 14px;
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    margin: 0 0 6px;
+  }
+  .feature-card p {
+    font-size: 13.5px;
+    color: var(--muted);
+    margin: 0;
+  }
+
+  .badge-row {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    flex-wrap: wrap;
+    margin-top: 20px;
+  }
+  .badge {
+    font-size: 11px;
+    font-weight: 800;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    padding: 6px 14px;
+    border-radius: 999px;
+    border-bottom: 3px solid;
+  }
+  .badge.pink { background: rgba(236,72,153,0.15); color: var(--pink); border-color: var(--pink); }
+  .badge.yellow { background: rgba(247,201,72,0.15); color: var(--accent); border-color: var(--accent); }
+  .badge.teal { background: rgba(20,184,166,0.15); color: var(--teal); border-color: var(--teal); }
+
+  footer {
+    text-align: center;
+    padding: 24px;
+    color: var(--muted);
+    font-size: 13px;
+    border-top: 1px solid var(--border);
+  }
+  .nav-links {
+    text-align: center;
+    margin-bottom: 24px;
+  }
+  .nav-links a {
+    display: inline-block;
+    margin: 0 10px;
+    text-decoration: none;
+    color: var(--muted);
+    font-size: 13px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+  }
+  .nav-links a:hover { color: var(--accent); }
+</style>
+</head>
+<body>
+
+<header>
+  <div class="logo"><span class="otak">OTAK</span><span class="juara">JUARA</span></div>
+  <p class="tagline">Arena Asah Otak & Ranking</p>
+</header>
+
+<main>
+  <div class="nav-links">
+    <a href="about.html">Tentang</a>
+    <a href="terms.html">Syarat & Ketentuan</a>
+    <a href="privacy.html">Kebijakan Privasi</a>
+  </div>
+
+  <div class="hero">
+    <h1>🧠 Tentang OtakJuara</h1>
+    <p>
+      Arena permainan asah otak kompetitif — uji kecepatan berpikir, kumpulkan MMR,
+      dan naik ke puncak papan peringkat.
+    </p>
+    <div class="badge-row">
+      <span class="badge pink">Arena Game</span>
+      <span class="badge pink">Battle Mode</span>
+      <span class="badge yellow">Leaderboard</span>
+      <span class="badge teal">Tantangan Harian</span>
+    </div>
+  </div>
+
+  <section>
+    <h2>Apa itu OtakJuara?</h2>
+    <p>
+      OtakJuara adalah aplikasi permainan asah otak yang dirancang untuk menguji dan melatih kecepatan
+      berpikir, logika, serta daya ingat Anda melalui berbagai mode permainan yang seru dan kompetitif.
+      Setiap kemenangan membawa Anda naik peringkat — mulai dari pemula hingga menjadi juara arena.
+    </p>
+  </section>
+
+  <section>
+    <h2>Fitur Utama</h2>
+    <div class="feature-grid">
+      <div class="feature-card">
+        <div class="icon">🎮</div>
+        <h3>Arena Game</h3>
+        <p>Mainkan berbagai tantangan asah otak dalam mode arena santai untuk mengasah kemampuan.</p>
+      </div>
+      <div class="feature-card">
+        <div class="icon">⚔️</div>
+        <h3>Battle Mode</h3>
+        <p>Adu kecepatan dan ketepatan langsung melawan pemain lain secara real-time.</p>
+      </div>
+      <div class="feature-card">
+        <div class="icon">🏆</div>
+        <h3>Papan Ranking</h3>
+        <p>Pantau posisi Anda di antara para pemain lain berdasarkan MMR dan pencapaian.</p>
+      </div>
+      <div class="feature-card">
+        <div class="icon">📅</div>
+        <h3>Tantangan Harian</h3>
+        <p>Segera hadir — misi harian dengan hadiah dan tantangan baru setiap hari.</p>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <h2>Kenapa Bermain OtakJuara?</h2>
+    <ul>
+      <li>Sistem rating/MMR yang adil untuk mengukur perkembangan kemampuan Anda.</li>
+      <li>Kompetisi langsung melawan pemain lain lewat Battle Mode.</li>
+      <li>Tampilan yang ringan, cepat, dan bisa dimainkan di browser maupun aplikasi Android.</li>
+      <li>Terus dikembangkan dengan fitur dan tantangan baru.</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>Hubungi Kami</h2>
+    <p>
+      Punya masukan, laporan bug, atau ide fitur? Kirim email ke
+      <a href="mailto:afrizalahma5@gmail.com">afrizalahma5@gmail.com</a> — kami senang mendengarnya.
+    </p>
+  </section>
+</main>
+
+<footer>
+  &copy; 2026 OtakJuara. Seluruh hak cipta dilindungi.
+</footer>
+
+</body>
+</html>
